@@ -12,7 +12,7 @@ source:
 build:
   number: 0
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  skip: True  # [py<39]
+  skip: True  # [py<36]
 
 requirements:
   host:
@@ -24,7 +24,6 @@ requirements:
     - python
     - google-auth
     - httplib2 >=0.19.0
-    - six
 
 test:
   source_files:
@@ -38,7 +37,6 @@ test:
     - pip
     - pytest
     - flask
-    - pytest-cov
     - pytest-localserver
 
 about:
