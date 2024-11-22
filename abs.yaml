@@ -1,6 +1,3 @@
 upload_channels:
   - sfe1ed40
 
-channels:
-  - https://staging.continuum.io/prefect/fs/httplib2-feedstock/pr2/5500118
-
